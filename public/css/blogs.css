@@ -1,0 +1,103 @@
+#posts-container {
+	max-width: 465px;
+	margin: 20px auto;
+	background-color: #fff;
+	padding: 20px 40px;
+	border-radius: 8px;
+	box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.blog-pic-div {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+	background-color: floralwhite;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border-radius: 4px;
+	margin: 0;
+}
+
+.blog-pic-div img {
+	opacity: 0.8;
+	flex-shrink: 0;
+	min-width: 100%;
+	height: 30em;
+	transition: .5s ease;
+	backface-visibility: hidden;
+}
+
+.middle {
+	text-align:center;
+	justify-content: center;
+	transition: .5s ease;
+	opacity: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%)
+}
+
+.blog-pic-div:hover .blog-img {
+	opacity: 0.3;
+	transform: scaleX(-1);
+}
+
+.blog-pic-div:hover .middle {
+	opacity: 1;
+}
+
+.text {
+	color: white;
+	padding: 3% 6%;
+	text-wrap: nowrap;
+	font-size:1.5rem;
+}
+
+.posts-h1 {
+	font-size: 1.5rem;
+	padding: 0.5%;
+	font-weight: 600;
+}
+
+.posts-content {
+	padding: 0.5%;
+	font-size: 16px;
+}
+
+.posts-date {
+	font-style: italic;
+	font-weight: 200;
+}
+
+.posts-author {
+	font-style: oblique;
+	padding: 1%;
+	font-weight: 200;
+}
+
+.readMore {
+	text-decoration: none;
+	color: #4CAF50;
+}
+
+.readMore:hover {
+	color: blue;
+}
+
+.pic-link {
+	text-decoration: none;
+}
+
+.pic-link:hover {
+	color: #B8860B;
+}
+
+hr {
+	width: 100%;
+	text-align: left;
+	margin-left: 0;
+}
+
+

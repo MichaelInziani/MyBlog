@@ -1,0 +1,30 @@
+/*Services page*/
+#services-container {
+	display: flex;
+	flex-flow: row wrap;
+	background-color: #fff;
+	padding: 1%;
+}
+
+.service {
+	width: 50%;
+	padding: 2%;
+
+}
+
+.service-img {
+	width: 50%;
+	float: left;
+	margin-right: 2%;
+	border-radius: 1%;
+}
+
+.services-h1 {
+	font-size: 4rem;
+	padding: 2%;
+}
+
+.multi-profession {
+	color: midnightblue;
+}
+

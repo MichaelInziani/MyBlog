@@ -1,0 +1,50 @@
+body {
+	margin: 0%;
+	padding-top: 6.0rem;
+	/*font-family: 'Merriweather', serif;*/
+	font-family: "Poppins", sans-serif;
+	font-weight: 300;
+	background-color: #f5f4f0;
+	background-image: url("https://www.transparenttextures.com/patterns/xv.png");
+}
+
+.container-fluid {
+	padding-top: 40px;
+	padding-bottom: 20px;
+}
+
+.body-container {
+	padding: 0;
+}
+
+/*HEADER*/
+.navbar {
+	border: 0;
+	border-radius: 0;
+	margin-bottom: 0;
+	letter-spacing: 3px;
+	padding-left: 100px;
+	background-color: gainsboro;
+}
+
+.navbar-nav li a:hover {
+	color: #1abc9c !important;
+}
+
+/*FOOTER*/
+.instagram-color {
+	background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+	-webkit-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.designer {
+	text-align: right;
+	padding-bottom: 3%;
+}
+
+.footer-div {
+	background-color: #0dcaf0;
+	padding: 2%;
+}
