@@ -1,0 +1,132 @@
+/*Responsiveness to different screens*/
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+	#posts-container {
+		max-width: 100%;
+		padding: 20px 40px;
+		border-radius: 8px;
+	}
+
+	.designer {
+		text-align: center;
+		justify-content: center;
+		padding-bottom: 3%;
+	}
+
+	.contact-me {
+		padding-top: 20%;
+		text-align: center;
+		justify-content: center;
+		/*margin: 5% 0 1%;*/
+	}
+
+	.ctc-msg-div {
+		width: 60%;
+		text-wrap: wrap;
+	}
+	.icon1{
+		width: 100%;
+		margin-top: 2%;
+	}
+
+	.service {
+		width: 100%;
+		display: block;
+		margin-bottom: 30px;
+		text-align: justify;
+	}
+
+	.service-img {
+		margin-bottom: 10px;
+		width: 100%;
+		display: inline;
+		object-fit: cover;
+	}
+
+	.services-h1 {
+		font-size: 2.5rem;
+		text-align: center;
+		justify-content: center;
+
+	}
+	#services-container {
+		padding: 5%;
+	}
+
+}
+
+/*iPads, Tablets*/
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+	#posts-container {
+		max-width: 100%;
+		padding: 20px 40px;
+		border-radius: 8px;
+	}
+
+	.designer {
+		text-align: center;
+		justify-content: center;
+		padding-bottom: 3%;
+	}
+
+	.ctc-msg-div {
+		width: 60%;
+		text-wrap: wrap;
+	}
+	.icon1{
+		width: 100%;
+		margin-top: 2%;
+	}
+	.contact-me {
+		padding-top: 10%;
+		text-align: center;
+		justify-content: center;
+		/*margin: 5% 0 1%;*/
+	}
+
+	.service {
+		width: 100%;
+		display: block;
+		margin-bottom: 30px;
+		text-align: justify;
+	}
+
+	.service-img {
+		margin-bottom: 10px;
+		width: 100%;
+		display: inline;
+		object-fit: cover;
+	}
+
+	.services-h1 {
+		font-size: 2.5rem;
+		text-align: center;
+		justify-content: center;
+	}
+}
+
+.service-title {
+	font-size: 120% !important;
+}
+
+/*Small Screens, Laptops*/
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+	#posts-container {
+		max-width: 100%;
+		padding: 20px 40px;
+		border-radius: 8px;
+	}
+
+	.designer {
+		text-align: center;
+		justify-content: center;
+		padding-bottom: 3%;
+	}
+
+	.contact-me {
+		padding-top: 10%;
+		text-align: center;
+		justify-content: center;
+		/*margin: 5% 0 1%;*/
+	}
+
+}

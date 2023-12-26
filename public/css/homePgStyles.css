@@ -7,11 +7,10 @@
     
     .welcomeMsg{
         font-family: 'Carattere', cursive;
-        
+        font-size: 500%;
     }
 
-    .animate-charcter
-{
+    .animate-charcter{
    text-transform: capitalize;
   background-image: linear-gradient(
     -225deg,
@@ -30,7 +29,6 @@
   -webkit-text-fill-color: transparent;
   animation: textclip 2s linear infinite;
   display: inline-block;
-      font-size: 10rem;
 }
 
 @keyframes textclip {
