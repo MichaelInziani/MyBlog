@@ -22,7 +22,8 @@
     "lodash": "^4.17.21",
     "mongoose": "^7.5.1",
     "path": "^0.12.7",
-    "serve-favicon": "^2.5.0"
+    "serve-favicon": "^2.5.0",
+    "yarn": "^1.22.21"
   },
   "description": "A blog website",
   "repository": {
