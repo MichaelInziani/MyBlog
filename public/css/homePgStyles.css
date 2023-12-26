@@ -7,6 +7,7 @@
     
     .welcomeMsg{
         font-family: 'Carattere', cursive;
+        
     }
 
     .animate-charcter
@@ -21,6 +22,7 @@
   );
   background-size: auto auto;
   background-clip: border-box;
+  background-size: 200% auto;
   color: #fff;
   background-clip: text;
   text-fill-color: transparent;
@@ -28,7 +30,7 @@
   -webkit-text-fill-color: transparent;
   animation: textclip 2s linear infinite;
   display: inline-block;
-      font-size: 4rem;
+      font-size: 10rem;
 }
 
 @keyframes textclip {
@@ -38,5 +40,19 @@
 }
 
 .myName{
-    font-family: 'Kalnia', serif;
+    font-family: 'Lobster', sans-serif;
+    font-size: 3.5rem;
+}
+
+.profession{
+    font-family: 'Sofia', cursive;
+    font-size: 2.5rem;
+    width: 80%;
+}
+
+.intro{
+    width: 83%;
+    font-family: 'Inria Serif', serif;
+    font-size: 1.5rem;
+    font-weight: 400;
 }
