@@ -108,15 +108,15 @@
 		text-align: center;
 		justify-content: center;
 	}
+    .service-title {
+        font-size: 120% !important;
+    }
 
     .hmpgTopContainer{
+        padding-top: 10%;
         text-align: center;
         align-content: center;
         justify-content: center;
-        }
-
-        .service-title {
-            font-size: 120% !important;
         }
 }
 
