@@ -52,6 +52,12 @@
 		padding: 5%;
 	}
 
+    .hmpgTopContainer{
+        align-content: center;
+        justify-content: center;
+        text-align: center;
+        }
+
 }
 
 /*iPads, Tablets*/
@@ -102,11 +108,19 @@
 		text-align: center;
 		justify-content: center;
 	}
+
+    .hmpgTopContainer{
+        text-align: center;
+        align-content: center;
+        justify-content: center;
+        }
+
+        .service-title {
+            font-size: 120% !important;
+        }
 }
 
-.service-title {
-	font-size: 120% !important;
-}
+
 
 /*Small Screens, Laptops*/
 @media only screen and (min-width: 769px) and (max-width: 1024px) {

@@ -29,6 +29,7 @@
   -webkit-text-fill-color: transparent;
   animation: textclip 2s linear infinite;
   display: inline-block;
+  text-wrap: wrap;
 }
 
 @keyframes textclip {
@@ -39,18 +40,16 @@
 
 .myName{
     font-family: 'Lobster', sans-serif;
-    font-size: 3.5rem;
+    font-size: 300%;
 }
 
 .profession{
     font-family: 'Sofia', cursive;
-    font-size: 2.5rem;
-    width: 80%;
+    font-size: 200%;
 }
 
 .intro{
-    width: 83%;
     font-family: 'Inria Serif', serif;
-    font-size: 1.5rem;
+    font-size: 150%;
     font-weight: 400;
 }
