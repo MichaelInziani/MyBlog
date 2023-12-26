@@ -1,0 +1,63 @@
+<%- include("./partials/header"); -%>
+
+  <!--<h1>Contact Us</h1>
+    <p>
+        <%= contactUs %>
+    </p> -->
+  <div class="contact-page">
+    <div class="contact-me">
+      <h2 class="contact-h2 gradient-text">Get In Touch</h2>
+      <h3 class="contact-h3">I am currently available for freelance jobs.</h3>
+      <div class="ctc-msg-div">
+        <p class="contact-message">If you have a project that you want to get started, think you need my help with
+          something or just fancy saying hey, then get in touch.</p>
+      </div>
+      <a class="contact-link-btn btn" href="#contact-form">CONTACT ME</a>
+    </div>
+
+
+    <div class="row contact-3">
+      <div class="icon1 col-lg-4 col-md-4 col-sm-12">
+        <p><a href="tel:+254728365673"><i class="fa-solid fa-phone fa-3x" style="color: #3d3767;"></i></a> </p><br>
+        <a class="ple" href="tel:+254728365673">Make a Call</a>
+      </div>
+      <div class="icon1 col-lg-3 col-md-3 col-sm-12">
+        <p><a href="https://api.whatsapp.com/send?phone=254728365673" target="_blank"><i
+              class=" fa-brands fa-whatsapp fa-3x" style="color: #2bca4b;"></i></a></p><br>
+        <a class="ple" href="https://api.whatsapp.com/send?phone=254728365673" target="_blank">Send Message</a>
+      </div>
+      <div class="icon1 col-lg-3 col-md-3 col-sm-12">
+        <p><a href="mailto:mikeinziani004@gmail.com"><i class=" fa-solid fa-envelope fa-3x"
+              style="color: #0a3b7b;"></i></a></p><br>
+        <a class="ple" href="mailto:mikeinziani004@gmail.com">Mail Me</a>
+      </div>
+    </div>
+
+    <div class="ctc-fm-div">
+      <form class="row" id="contact-form" action="/contact" method="post">
+        <div class="ctc-fm col-lg-6 col-md-6 col-sm-12">
+          <label for="firstName" class="form-label">First Name</label>
+          <input type="text" id="firstName" class="form-control" placeholder="First name" aria-label="First name" name="firstName" required>
+        </div>
+        <div class="ctc-fm col-lg-6 col-md-6 col-sm-12">
+          <label for="lastName" class="form-label">Last Name</label>
+          <input type="text" id="lastName" class="form-control" placeholder="Last name" aria-label="Last name" name="lastName" required>
+        </div>
+        <div class="ctc-fm col-lg-6 col-md-6 col-sm-12">
+          <label for="phoneNumber" class="form-label">Phone Number</label>
+          <input type="tel" id="phoneNumber" class="form-control" placeholder="Phone Number" aria-label="Phone Number" name="phoneNumber" >
+        </div>
+        <div class="ctc-fm col-lg-6 col-md-6 col-sm-12">
+          <label for="emailAddress" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="emailAddress" placeholder="Email address" name="emailAddress" required>
+        </div>
+        <div class="ctc-fm mb-3">
+          <label for="textInput" class="form-label">Message</label>
+          <textarea class="form-control" id="textInput" rows="5" placeholder="Message" autocomplete="off"
+            autocapitalize="on" name="messageBody" required></textarea>
+        </div>
+          <button type="submit" class="submit-btn btn" name="button">Submit</button>
+      </form>
+    </div>
+  </div>
+  <%- include("./partials/footer"); -%>

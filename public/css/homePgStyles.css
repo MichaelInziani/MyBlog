@@ -1,0 +1,42 @@
+/*Home Page*/
+.hmpgTopContainer{
+    background-color: cyan;
+    height: 80%;
+    padding: 5% 2% 2%;
+    }
+    
+    .welcomeMsg{
+        font-family: 'Carattere', cursive;
+    }
+
+    .animate-charcter
+{
+   text-transform: capitalize;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+      font-size: 4rem;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+.myName{
+    font-family: 'Kalnia', serif;
+}

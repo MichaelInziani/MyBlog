@@ -1,0 +1,36 @@
+{
+  "name": "my-blog",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Michael Inziani",
+  "license": "ISC",
+  "engines": {
+    "npm": ">=9.6.70",
+    "node": ">=18.17.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "dirname": "^0.1.0",
+    "dotenv": "^16.3.1",
+    "ejs": "^2.7.4",
+    "express": "^4.18.2",
+    "express-favicon": "^2.0.4",
+    "lodash": "^4.17.21",
+    "mongoose": "^7.5.1",
+    "path": "^0.12.7",
+    "serve-favicon": "^2.5.0"
+  },
+  "description": "A blog website",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MichaelInziani/MyBlog.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MichaelInziani/MyBlog/issues"
+  },
+  "homepage": "https://github.com/MichaelInziani/MyBlog#readme"
+}
