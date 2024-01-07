@@ -54,14 +54,20 @@
   font-family: 'EB Garamond', serif;
   font-style: italic;
     font-size: 200%;
-    background: linear-gradient(to right,#030118, #380688, #0fbb5c, #0c0701);
+    background: linear-gradient(to right,#6b0e1a, #380688, #d19144, #220b75);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     
 }
 
+/*.revealUp {
+  opacity: 0;
+  visibility: hidden;
+}
+*/
 .intro{
     font-size: 150%;
     font-family: 'Fenix', serif;
 
 }
+
