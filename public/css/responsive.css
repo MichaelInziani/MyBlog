@@ -59,6 +59,16 @@
         align-content: center;
         justify-content: center;
         }
+
+		.contact-3{
+			display: flex;
+			flex-direction: column;
+			text-align: center;
+			justify-content: center;
+			align-items: center;
+		 }
+
+		
 }
 
 /*iPads, Tablets*/
@@ -119,6 +129,16 @@
         align-content: center;
         justify-content: center;
         }
+
+		.contact-3{
+			display: flex;
+			flex-direction: column;
+			text-align: center;
+			justify-content: center;
+			align-items: center;
+		 }
+
+		
 }
 
 
