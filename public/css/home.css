@@ -7,13 +7,13 @@
     background-repeat: no-repeat;
     backdrop-filter: blur(50px);
     height: 80%;
-    padding: 30% 2% 2%;
+    padding: 25% 2% 2%;
     }
     
     .welcomeMsg{
         font-family: 'Carattere', cursive;
         font-size: 500%;
-        padding: 2%;
+        padding:0 2% 2% 0;
     }
 
     .animate-charcter{
@@ -45,17 +45,23 @@
 }
 
 .myName{
-    font-family: 'Lobster', sans-serif;
+  font-family: 'Libre Bodoni', serif;
     font-size: 300%;
+    font-weight: 700;
 }
 
 .profession{
-    font-family: 'Sofia', cursive;
+  font-family: 'EB Garamond', serif;
+  font-style: italic;
     font-size: 200%;
+    background: linear-gradient(to right,#030118, #380688, #0fbb5c, #0c0701);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    
 }
 
 .intro{
-    font-family: 'Inria Serif', serif;
     font-size: 150%;
-    font-weight: 400;
+    font-family: 'Fenix', serif;
+
 }
