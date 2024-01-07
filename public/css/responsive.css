@@ -23,6 +23,7 @@
 	.contact-3{
 		display: flex;
 		flex-direction: column;
+		flex-wrap: nowrap;
 		justify-content: center;
 		align-content: center;
 		align-items: center;
@@ -68,9 +69,9 @@
         text-align: center;
         align-content: center;
         justify-content: center;
-        }
-		
+        }	
 }
+
 
 /*iPads, Tablets*/
 @media only screen and (min-width: 481px) and (max-width: 768px) {
@@ -101,10 +102,10 @@
 	.contact-3{
 		display: flex;
 		flex-direction: column;
+		flex-wrap: nowrap;
 		justify-content: center;
 		align-content: center;
 		align-items: center;
-		padding: 3%;
 	}
 
 	.icon1{
@@ -141,8 +142,7 @@
         align-content: center;
         justify-content: center;
         }
-
-		
+	
 }
 
 
@@ -167,6 +167,5 @@
 		justify-content: center;
 		/*margin: 5% 0 1%;*/
 	}
-
 
 }
