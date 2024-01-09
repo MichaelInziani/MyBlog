@@ -12,7 +12,7 @@
 		padding-bottom: 3%;
 	}
 
-	
+
 	.contact-me {
 		padding-top: 20%;
 		text-align: center;
@@ -20,7 +20,7 @@
 		/*margin: 5% 0 1%;*/
 	}
 
-	.contact-3{
+	.contact-3 {
 		display: flex;
 		flex-direction: column;
 		flex-wrap: nowrap;
@@ -30,9 +30,9 @@
 		padding: 3%;
 	}
 
-	.icon1{
-		width: 100% ;
-		margin-top: 2% ;
+	.icon1 {
+		width: 100%;
+		margin-top: 2%;
 	}
 
 	.ctc-msg-div {
@@ -45,17 +45,17 @@
 	}
 
 	.service {
-		width: 100% ;
-		display: block ;
+		width: 100%;
+		display: block;
 		margin-bottom: 30px;
 		text-align: justify;
 	}
 
 	.service-img {
-		margin-bottom: 10px ;
-		width: 100% ;
-		display: inline ;
-		object-fit: cover ;
+		margin-bottom: 10px;
+		width: 100%;
+		display: inline;
+		object-fit: cover;
 	}
 
 	.services-h1 {
@@ -65,19 +65,19 @@
 
 	}
 
-    .hmpgTopContainer{
-        padding-top: 10%;
-        text-align: center;
-        align-content: center;
-        justify-content: center;
-        }
+	.hmpgTopContainer {
+		padding-top: 10%;
+		text-align: center;
+		align-content: center;
+		justify-content: center;
+	}
 
-		.myName{
-			background: linear-gradient(to right, #330c8f, #ff6b08,#cf23cf, #eedd44);
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
-	font-weight: 700;
-		}
+	.myName {
+		background: linear-gradient(to right, #330c8f, #ff6b08, #cf23cf, #eedd44);
+		-webkit-text-fill-color: transparent;
+		-webkit-background-clip: text;
+		font-weight: 700;
+	}
 }
 
 
@@ -99,7 +99,7 @@
 		width: 60%;
 		text-wrap: wrap;
 	}
-	
+
 	.contact-me {
 		padding-top: 10%;
 		text-align: center;
@@ -107,7 +107,7 @@
 		/*margin: 5% 0 1%;*/
 	}
 
-	.contact-3{
+	.contact-3 {
 		display: flex;
 		flex-direction: column;
 		flex-wrap: nowrap;
@@ -116,23 +116,23 @@
 		align-items: center;
 	}
 
-	.icon1{
-		width: 100% ;
-		margin-top: 2% ;
+	.icon1 {
+		width: 100%;
+		margin-top: 2%;
 	}
 
 	.service {
-		width: 100% ;
-		display: block ;
-		margin-bottom: 30px ;
-		text-align: justify ;
+		width: 100%;
+		display: block;
+		margin-bottom: 30px;
+		text-align: justify;
 	}
 
 	.service-img {
-		margin-bottom: 10px ;
+		margin-bottom: 10px;
 		width: 100%;
-		display: inline ;
-		object-fit: cover ;
+		display: inline;
+		object-fit: cover;
 	}
 
 	.services-h1 {
@@ -140,23 +140,24 @@
 		text-align: center;
 		justify-content: center;
 	}
-    .service-title {
-        font-size: 120% ;
-    }
 
-    .hmpgTopContainer{
-        padding-top: 10%;
-        text-align: center;
-        align-content: center;
-        justify-content: center;
-        }
+	.service-title {
+		font-size: 120%;
+	}
 
-		.myName{
-			background: linear-gradient(to right, #330c8f, #ff6b08,#cf23cf, #eedd44);
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
-	font-weight: 700;
-		}
+	.hmpgTopContainer {
+		padding-top: 10%;
+		text-align: center;
+		align-content: center;
+		justify-content: center;
+	}
+
+	.myName {
+		background: linear-gradient(to right, #330c8f, #ff6b08, #cf23cf, #eedd44);
+		-webkit-text-fill-color: transparent;
+		-webkit-background-clip: text;
+		font-weight: 700;
+	}
 }
 
 

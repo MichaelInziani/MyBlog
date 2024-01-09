@@ -1,30 +1,28 @@
 /*Home Page*/
-.hmpgTopContainer{
-    /*background-color: cyan;*/
-    background-image: url(../images/gradPic.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    backdrop-filter: blur(50px);
-    height: 80%;
-    padding: 25% 2% 2%;
-    }
-    
-    .welcomeMsg{
-        font-family: 'Carattere', cursive;
-        font-size: 500%;
-        padding:0 2% 2% 0;
-    }
+.hmpgTopContainer {
+  /*background-color: cyan;*/
+  background-image: url(../images/gradPic.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  backdrop-filter: blur(50px);
+  height: 80%;
+  padding: 25% 2% 2%;
+}
 
-    .animate-charcter{
-   text-transform: capitalize;
-  background-image: linear-gradient(
-    -225deg,
-    #231557 0%,
-    #44107a 29%,
-    #ff1361 67%,
-    #fff800 100%
-  );
+.welcomeMsg {
+  font-family: 'Carattere', cursive;
+  font-size: 500%;
+  padding: 0 2% 2% 0;
+}
+
+.animate-charcter {
+  text-transform: capitalize;
+  background-image: linear-gradient(-225deg,
+      #231557 0%,
+      #44107a 29%,
+      #ff1361 67%,
+      #fff800 100%);
   background-size: auto auto;
   background-clip: border-box;
   background-size: 200% auto;
@@ -44,20 +42,20 @@
   }
 }
 
-.myName{
+.myName {
   font-family: 'Libre Bodoni', serif;
-    font-size: 300%;
-    font-weight: 700;
+  font-size: 300%;
+  font-weight: 700;
 }
 
-.profession{
+.profession {
   font-family: 'EB Garamond', serif;
   font-style: italic;
-    font-size: 200%;
-    background: linear-gradient(to right,#6b0e1a, #380688, #694313, #9e0e0e);
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
-    
+  font-size: 200%;
+  background: linear-gradient(to right, #6b0e1a, #380688, #694313, #9e0e0e);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+
 }
 
 /*.revealUp {
@@ -65,9 +63,8 @@
   visibility: hidden;
 }
 */
-.intro{
-    font-size: 150%;
-    font-family: 'Fenix', serif;
+.intro {
+  font-size: 150%;
+  font-family: 'Fenix', serif;
 
 }
-

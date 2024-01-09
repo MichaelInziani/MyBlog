@@ -28,7 +28,7 @@
 }
 
 .middle {
-	text-align:center;
+	text-align: center;
 	justify-content: center;
 	transition: .5s ease;
 	opacity: 0;
@@ -52,7 +52,7 @@
 	color: white;
 	padding: 3% 6%;
 	text-wrap: nowrap;
-	font-size:1.5rem;
+	font-size: 1.5rem;
 }
 
 .posts-h1 {
@@ -99,5 +99,3 @@ hr {
 	text-align: left;
 	margin-left: 0;
 }
-
-

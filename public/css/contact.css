@@ -94,20 +94,20 @@
 	appearance: none;
 	border-radius: 0.375rem;
 	transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-	background-image:url(../images/contact3img.jpg) ;
+	background-image: url(../images/contact3img.jpg);
 	background-position: center;
 	background-size: 100%;
 
 	--bs-gutter-x: 1.5rem;
-		--bs-gutter-y: 0;
-		display: flex;
-		flex-wrap: wrap;
-		margin-top: calc(-1 * var(--bs-gutter-y));
-		margin-right: calc(-0.5 * var(--bs-gutter-x));
-		margin-left: calc(-0.5 * var(--bs-gutter-x));
+	--bs-gutter-y: 0;
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: calc(-1 * var(--bs-gutter-y));
+	margin-right: calc(-0.5 * var(--bs-gutter-x));
+	margin-left: calc(-0.5 * var(--bs-gutter-x));
 }
 
-.contact-3 > * {
+.contact-3>* {
 	box-sizing: border-box;
 	flex-shrink: 0;
 	width: 100%;
@@ -115,7 +115,7 @@
 	padding-right: calc(var(--bs-gutter-x) * 0.5);
 	padding-left: calc(var(--bs-gutter-x) * 0.5);
 	margin-top: var(--bs-gutter-y);
-  }
+}
 
 .icon1 {
 	padding: 8% 0;
@@ -170,7 +170,7 @@
 		linear-gradient(to right, var(--primary-color),
 			var(--secondary-color));
 	box-shadow: 0px 2px 10px var(--shadow-color);
-	cursor:pointer;
+	cursor: pointer;
 }
 
 .contact-link-btn:hover {
@@ -198,7 +198,7 @@
 	--bs-btn-disabled-bg: #212529;
 	--bs-btn-disabled-border-color: #212529;
 	width: 100px;
-	cursor:pointer;
+	cursor: pointer;
 }
 
 .submit-btn:hover {
@@ -217,4 +217,3 @@
 	--bs-btn-disabled-bg: #f8f9fa;
 	--bs-btn-disabled-border-color: #f8f9fa;
 }
-
